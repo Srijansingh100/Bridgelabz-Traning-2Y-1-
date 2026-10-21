@@ -12,8 +12,8 @@ public class RevElement {
             i++;
             j--;
         }
-        for (int t = 0; t < n; t++) {
-            System.out.print(arr[t]+" ");
+        for(int r:arr){
+            System.out.print(r+" ");
         }
     }
 }
